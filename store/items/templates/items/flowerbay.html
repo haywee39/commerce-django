@@ -1,0 +1,131 @@
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flowerbay</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicons.ico.png">
+    <link rel="stylesheet" href="{% static './css/flowerbay.css' %}">
+</head>
+<body>
+    <div class="first_nav">
+        <a href="tel:+23408137464582">
+            <i>08137464582</i>
+        </a>
+        <a href="mailto:info@lasop.net">
+            <i>info@lasop.net</i>
+        </a>
+       
+    </div>
+    
+    <span class="hello-msg">Hello, {{request.user}}</span>
+    <span ><a  class="hello-msg" href="{% url 'logout' %}">Logout</a></span>
+
+    <header>
+        <div id="logo">
+            <a href="flowerbay.html">
+            <h1><span class="colored">D</span>avid</h1>
+           </a>
+        </div>
+        <nav>
+            <ul>
+              <a href="about.html">
+                  <li>About us</li>
+              </a>
+              <a href="gallery.html">
+                  <li>Gallery</li>
+              </a>
+              <a href="blog.html">
+                  <li>Blog</li>
+              </a>
+              <a href="contact">
+                  <li>Contact us</li>
+              </a>
+              <button type="submit">Buy a flower</button>
+            </ul>
+        </nav>
+    </header>
+    <section class="herosection">
+        <div class="desc">
+            <h1>Flower Bay</h1>
+            <p>Lovely flowers at your disposal</p>
+            <button type="submit">Shop now</button>
+        </div>
+        <img src="{% static './image/purepng1.png' %}" alt="">
+
+    </section>
+
+
+    <section class="flower_block">
+        <div class="flower_block_desc">
+
+        
+        <h1>Our Flower Store</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa magni a quibusdam aut praesentium veritatis reprehenderit laudantium sapiente, magnam nesciunt vel eos velit, excepturi nam architecto! Est perspiciatis officiis ex.</p>
+        </div>
+   
+        <div class="cards">
+            {% for product in products %}
+            <div class="card">
+                <img src="{{product.image.url}}" alt="">
+                <h3>{{product.name}}</h3>
+                <p>&#8358;{{product.price}}</p>
+                <button type="submit">Order here</button>
+            </div>
+           
+            {% endfor %}
+        </div>
+
+      
+    </section>
+
+          
+
+    <section class="about_us">
+        <div class="about">
+            <h1>What People Say About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deleniti ratione deserunt at officia, ducimus unde est neque iure vero eaque, ullam reprehenderit illum sed aspernatur. Quidem iusto asperiores cupiditate!</p>
+            <p><small>Peter Parker</small></p>
+        </div>
+
+        <img src=" {% static './image/photo-of-woman-wearing-headscarf-18205751.png' %}" alt="">
+    </section>
+
+
+    <footer>
+        <div class="flower">
+            <h4>Flower Bay.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad illum eaque: amet autem explicabo suscipit sapiente impedit velit minima! Eaque? Lorem ipsum: dolor sit amet, consectetur adipisicing elit. Deserunt, labore.</p>
+        </div>
+
+        <div class="contact">
+            <h5>Contact Us</h5>
+            <p><strong>Lorem:</strong> ipsum dolor sit amet.</p>
+            <p><strong>Lorem:</strong> ipsum dolor sit amet.</p>
+            <p><strong>Lorem:</strong> ipsum dolor sit amet.</p>
+
+        </div> 
+
+        <div class="link">
+            <h5>Links</h5>
+            <a href="about.html">About us</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="shop.html">Shop here</a>
+        </div>
+
+
+        <div class="sign">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing</p>
+            <input type="text">
+            
+            <button type="submit">Sign up</button>
+        </div>
+    </footer>
+    
+</body>
+</html>

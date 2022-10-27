@@ -1,0 +1,922 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.first_nav{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-bottom: 10pxh;
+}
+
+.first_nav a i{
+    color: #592600;
+    /* text-decoration: none; */
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+.first_nav a {
+ 
+    text-decoration: none;
+   
+}
+
+header{
+    background-color: #592600;
+    min-height: 70px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#logo{
+    margin-left: 20px;
+    float: left;
+    
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+#logo a h1{
+    color: #fff;
+    font-style: italic;
+}
+
+.colored{
+    color: red;
+}
+
+nav{
+    float:right;
+}
+
+nav ul{
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+
+header button{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+header button:hover{
+    text-decoration: underline;
+}
+
+
+
+.herosection{
+    display: flex;
+}
+
+
+.desc{
+    margin-top: 200px;
+    margin-left: 200px;
+    color: #592600;
+    line-height: 1.5;
+}
+
+.desc h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.desc p{
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+
+}
+
+.desc button{
+    background-color: #592600;
+    color: #fff;
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.desc button:hover{
+    text-decoration: underline;
+}
+
+.herosection img{
+    margin-left: 200px;
+}
+
+.flower_block{
+    background: #e5e5e5;
+}
+
+.flower_block_desc{
+    color: #592600;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.flower_block_desc h1{
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.card{
+    width: 350px;
+    height: 420px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.card h3{
+    color: #592600;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #592600;
+    margin-bottom: 10px;
+}
+
+.card button{
+    background-color: #592600;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.cards{
+    display: flex;
+    margin-left: 3rem;
+}
+
+.about_us{
+    background-color: #e5e5e5;
+    display: flex;
+}
+
+
+.about{
+    width: 500px;
+    color: #592600;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.about h1{
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.about p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+.about_us img{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 70px;
+    border-radius: 50%;
+}
+
+
+footer{
+    background-color: #592600;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: #fff;
+    display: flex;
+}
+.flower{
+    width: 300px;
+}
+.flower h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.flower p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contact{
+    margin-left: 30px;
+}
+
+.contact h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    margin-bottom: 20px;
+    width: 150px;
+    line-height: 1.5;
+}
+
+.link{
+    margin-left: 30px;
+}
+
+
+.link h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.link a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    line-height: 3;
+    
+}
+
+.message{
+    margin-left: 100px;
+}
+
+
+.hello-msg{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 600px;
+}
+
+
+
+.sign{
+    margin-left: 100px;
+}
+
+.sign p{
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.sign input{
+    width: 300px;
+    height: 45px;
+}
+
+.sign button{
+    width: 80px;
+    height: 35px;
+    background-color: #592600;
+    color: #fff;
+    border: none;
+    margin-left: -180px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+
+/* media queries */
+
+@media(max-width:1024px){
+    .first_nav{
+        margin-top: 20px;
+        margin-left: 200px;
+        margin-bottom: 10pxh;
+    }
+    
+    .first_nav a i{
+        color: #592600;
+        /* text-decoration: none; */
+        font-size: 17px;
+        font-weight: bolder;
+        padding-left: 20px;
+    }
+    .first_nav a {
+     
+        text-decoration: none;
+       
+    }
+    
+    header{
+        background-color: #592600;
+        min-height: 70px;
+        color: #fff;
+        padding-top: 20px;
+    }
+    
+    #logo{
+        margin-left: 20px;
+        float: left;
+        
+    }
+    
+    #logo a{
+        text-decoration: none;
+    }
+    
+    #logo a h1{
+        color: #fff;
+        font-style: italic;
+    }
+    
+    .colored{
+        color: red;
+    }
+    
+    nav{
+        float:right;
+    }
+    
+    nav ul{
+        margin-right: 100px;
+    }
+    
+    nav ul li{
+        display: inline;
+        padding: 20px;
+    }
+    
+    
+    nav ul a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    
+    header button{
+        width: 150px;
+        height: 40px;
+        background-color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+    
+    header button:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    .herosection{
+        display: flex;
+    }
+    
+    
+    .desc{
+        margin-top: 200px;
+        margin-left: 100px;
+        color: #592600;
+        line-height: 1.5;
+    }
+    
+    .desc h1{
+        font-size: 40px;
+        font-weight: bolder;
+    }
+    
+    .desc p{
+        font-size: 35px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    
+    }
+    
+    .desc button{
+        background-color: #592600;
+        color: #fff;
+        width: 180px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    
+    .desc button:hover{
+        text-decoration: underline;
+    }
+    
+    .herosection img{
+        margin-left: 100px;
+        width: 300px;
+    }
+    
+    .flower_block{
+        background: #e5e5e5;
+    }
+    
+    .flower_block_desc{
+        color: #592600;
+        text-align: center;
+        padding-top: 70px;
+    }
+    
+    .flower_block_desc h1{
+        font-size: 35px;
+        line-height: 1.5;
+    }
+    
+    .card{
+        width: 250px;
+        height: 350px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 30px;
+        
+    }
+    
+    .card h3{
+        color: #592600;
+        margin-bottom: 10px;
+    }
+    
+    .card p{
+        color: #592600;
+        margin-bottom: 10px;
+    }
+    
+    .card button{
+        background-color: #592600;
+        color: #fff;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    .cards{
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .about_us{
+        background-color: #e5e5e5;
+        display: flex;
+    }
+    
+    
+    .about{
+        width: 500px;
+        color: #592600;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .about h1{
+        font-size: 32px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    
+    .about p{
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    
+    
+    .about_us img{
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 70px;
+        border-radius: 50%;
+    }
+    
+    
+    footer{
+        background-color: #592600;
+        padding-left: 50px;
+        padding-top: 50px;
+        color: #fff;
+        display: flex;
+    }
+    .flower{
+        width: 300px;
+    }
+    .flower h4{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .flower p{
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    
+    .contact{
+        margin-left: 30px;
+    }
+    
+    .contact h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .contact p{
+        margin-bottom: 20px;
+        width: 150px;
+        line-height: 1.5;
+    }
+    
+    .link{
+        margin-left: 30px;
+    }
+    
+    
+    .link h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .link a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        line-height: 2.5;
+        
+    }
+    
+    
+    .sign{
+        margin-left: 100px;
+    }
+    
+    .sign p{
+        margin-bottom: 15px;
+        width: 300px;
+    }
+    
+    .sign input{
+        width: 250px;
+        height: 45px;
+    }
+    
+    .sign button{
+        width: 80px;
+        height: 35px;
+        background-color: #592600;
+        color: #fff;
+        border: none;
+        margin-left: -180px;
+        position: absolute;
+        margin-top: 5px;
+    }
+    
+
+}
+
+@media(max-width:500px){
+    .first_nav{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 10pxh;
+    }
+    
+    .first_nav a i{
+        color: #592600;
+        /* text-decoration: none; */
+        font-size: 17px;
+        font-weight: bolder;
+        padding-left: 20px;
+    }
+    .first_nav a {
+     
+        text-decoration: none;
+       
+    }
+    
+    header{
+        background-color: #592600;
+        height: 400px;
+        color: #fff;
+        padding-top: 20px;
+    }
+    
+    #logo{
+        margin-left: 100px;
+        float: none;
+        
+    }
+    
+    #logo a{
+        text-decoration: none;
+    }
+    
+    #logo a h1{
+        color: #fff;
+        font-style: italic;
+        font-size: 40px;
+        /* border: 2px dashed #ffffff; */
+        width:-20px;
+    }
+    
+    .colored{
+        color: red;
+    }
+    
+    nav{
+        float:none;
+    }
+    
+    nav ul{
+        margin-right: 100px;
+    }
+    
+    nav ul li{
+        display:block;
+        padding: 20px;
+    }
+    
+    
+    nav ul a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 17px;
+    }
+    
+    
+    header button{
+        width: 300px;
+        height: 40px;
+        background-color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    
+    header button:hover{
+        text-decoration: underline;
+    }
+    
+    
+    
+    .herosection{
+        display: flex;
+    }
+    
+    
+    .desc{
+        margin-top: 50px;
+        margin-left: 50px;
+        color: #592600;
+        line-height: 1.5;
+    }
+    
+    .desc h1{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    
+    .desc p{
+        font-size: 25px;
+        font-weight: lighter;
+        margin-bottom: 10px;
+    
+    }
+    
+    .desc button{
+        background-color: #592600;
+        color: #fff;
+        width: 100px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: bolder;
+    }
+    
+    .desc button:hover{
+        text-decoration: underline;
+    }
+    
+    .herosection img{
+        margin-left: 50px;
+        width: 200px;
+    }
+    
+    .flower_block{
+        background: #e5e5e5;
+        height: 1480px;
+    }
+    
+    .flower_block_desc{
+        color: #592600;
+        text-align: center;
+        padding-top: 70px;
+        
+    }
+    
+    .flower_block_desc h1{
+        font-size: 35px;
+        line-height: 1.5;
+    }
+    
+    .card{
+        width: 300px;
+        height: 370px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 40px;
+        
+    }
+    
+    .card h3{
+        color: #592600;
+        margin-bottom: 10px;
+    }
+    
+    .card p{
+        color: #592600;
+        margin-bottom: 10px;
+    }
+    
+    .card button{
+        background-color: #592600;
+        color: #fff;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    .cards{
+        display: block;
+        margin-left: 50px;
+    }
+    
+    .about_us{
+        background-color: #e5e5e5;
+        display: block;
+    }
+    
+    
+    .about{
+        width: 400px;
+        color: #592600;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .about h1{
+        font-size: 32px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    
+    .about p{
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+    
+    
+    .about_us img{
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-bottom: 70px;
+        border-radius: 50%;
+    }
+    
+    
+    footer{
+        background-color: #592600;
+        padding-left: 50px;
+        padding-top: 50px;
+        color: #fff;
+        display:block;
+    }
+    .flower{
+        width: 300px;
+    }
+    .flower h4{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .flower p{
+        line-height: 2;
+        margin-bottom: 30px;
+    }
+    
+    .contact{
+        margin-left: 0px;
+    }
+    
+    .contact h5{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .contact p{
+        margin-bottom: 20px;
+        width: 150px;
+        line-height: 1.5;
+    }
+    
+    .link{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    
+    .link h5{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .link a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        line-height: 1.5;
+        margin-bottom:2 0px;
+        
+    }
+    
+    
+    .sign{
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    
+    .sign p{
+        margin-bottom: 15px;
+        width: 300px;
+    }
+    
+    .sign input{
+        width: 250px;
+        height: 45px;
+        margin-bottom: 50px;
+    }
+    
+    .sign button{
+        width: 80px;
+        height: 35px;
+        background-color: #592600;
+        color: #fff;
+        border: none;
+        margin-left: -180px;
+        position: absolute;
+        margin-top: 5px;
+    }
+    
+
+}
